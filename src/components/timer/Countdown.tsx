@@ -1,7 +1,7 @@
 import { FC } from "react";
 import useTimer from "../../hooks/useTimer";
-import { FaBookOpen } from "@react-icons/all-files/fa/FaBookOpen";
-import { FaBed } from "@react-icons/all-files/fa/FaBed";
+import { GiMeditation } from "@react-icons/all-files/gi/GiMeditation";
+import { GiNinjaMask } from "@react-icons/all-files/gi/GiNinjaMask";
 import TimePeriod from "./TimePeriod";
 import CountdownControls from "./CountdownControls";
 
@@ -40,9 +40,9 @@ const Countdown: FC<CountdownProps | undefined> = (props) => {
             </div>
             {isRunning ? (
                 isOnRest ? (
-                    <FaBed size="3rem" className="text-primary" />
+                    <GiMeditation size="3rem" className="text-primary" />
                 ) : (
-                    <FaBookOpen size="3rem" className="text-secondary" />
+                    <GiNinjaMask size="3rem" className="text-secondary" />
                 )
             ) : null}
             <div className="relative grid place-items-center shrink-0 grow-0 h-60 w-60">
