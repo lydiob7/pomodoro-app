@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary-contained {
+    @apply bg-primary;
+}
+
+.btn-secondary-contained {
+    @apply bg-secondary;
+}
+
+.btn-primary-outlined {
+    @apply border-2 border-primary text-primary;
+}
+
+.btn-secondary-outlined {
+    @apply border-2 border-secondary text-secondary;
+}
+
+.btn-primary-text {
+    @apply text-primary;
+}
+
+.btn-secondary-text {
+    @apply text-secondary;
+}
